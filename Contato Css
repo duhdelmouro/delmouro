@@ -1,0 +1,74 @@
+header{
+    background-color: blue
+    padding: 20px;
+}
+#logo{
+    border-radius: 10px;
+}
+@font-face{
+    font-family:'gagalin';
+    src: url('Gagalin-Regular.otf') format('opentype');
+}
+#titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    font-size: 35px;
+    font-family: gagalin;
+}
+main{
+    width: 940px;
+    margin: auto;
+}
+form{
+    margin: 40 px 0; /*margem superior e inferior de 40 px, para os lados zero*/
+}
+form label, form p{ /*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+   display: block;
+   font-size: 20px;
+   margin: 0 0 10px; /* 10 px para baixo*/
+}
+.input-padrao{
+   display: block;
+   margin: 0 0 20px; /* 20 px para baixo*/
+}
+.checkbox{
+   margin: 20px 0;
+   /* 20 px p/ cima e p/baixo e zero nas laterais*/
+}
+.enviar{
+   width: 40%;
+   padding: 15px 0;
+   background: orange;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor: pointer;
+}
+.enviar:hover{
+   background: darkorange;
+   transform: scale(1.2);
+}
+.copyright{
+   color: aqua;
+   font-size: 13px;
+   margin: 10px 0 0;
+}
+footer{
+   text-align: center;
+   background-image: url("bg.jpg");
+   /*Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento. Para isso, fazemos uso da função url(), para a qual passamos como parâmetro o caminho da imagem a ser inserida.*/
+   
+   padding: 10px 0;
+}
+#logo1{
+   border-radius: 15px;
+   width: 100px;
+   height: 100px;
+}
+
+ 
