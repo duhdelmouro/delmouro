@@ -1,0 +1,138 @@
+header{
+    background-color: #002A3E;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+img{
+    width: 380px;
+    height: 150px;
+}
+.titulo-principal{
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    transform: translate(8%, -20%);
+    font-size: 40px;
+    color: #fafcfd;
+    font-weight: 𝒫𝓇𝑒𝓋𝒾𝑒𝓌;
+    font-family: '𝒫𝓇𝑒𝓋𝒾𝑒𝓌';
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -1px -1px 0px #002A3E,
+        -1px 4px 0px #ADD8E6,
+        1px -1px 0px #002A3E,
+        1px 0px 0px #ADD8E6;
+}
+@font-face {
+    font-family: '𝒫𝓇𝑒𝓋𝒾𝑒𝓌';
+    src: url('𝒫𝓇𝑒𝓋𝒾𝑒𝓌.ttf') format('truetype');
+}
+main{
+    width: 940px;
+    margin: auto;
+}
+form{
+    margin: 40px 0; /*margem superior e inferior de 40 px, para os lados zero*/
+}
+form label, form p{ /*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; /*10 pixels para baixo*/
+}
+.input-padrao{
+    display: block;
+    margin:  0 0 20px; /*20px para baixo*/
+    padding: 10px 25px;/*10 px p cima e p baixo e 25px p os lados*/
+    width: 50%;/*largura dos meus inputs*/
+}
+.logo1{
+    width: 380px ;
+    height: 150px;
+    border-radius: 15px;
+}
+.checkbox{
+    margin: 20px 0; /*20 p cima e p baixo e zer nas laterais*/
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(68, 147, 232);
+    transform: scale(1.2);
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+body {
+    background: linear-gradient(to bottom, #002A3E, #ADD8E6);
+}
+nav{
+    position: absolute;
+    top: 160px;
+    right: 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Sᴍᴀʟʟ Cᴀᴘs';
+}
+nav a:hover{
+    color: rgb(68, 147, 232);
+    text-decoration: underline;
+}
+main{
+    width: 940px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+input::placeholder{
+    color:rgb(68, 147, 232);
+}
+textarea::placeholder{
+    color:rgb(68, 147, 232);
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+::placeholder {
+    color: rgb(243, 255, 7); 
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    font-weight: normal; 
+  }
+  #nomesobrenome::placeholder {
+    font-style: italic;
+  }
+  #email::placeholder {
+    font-style: italic;
+  }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: 2px solid rgb(68, 147, 232); 
+  border-radius: 10px;
+}
