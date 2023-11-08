@@ -1,17 +1,27 @@
-@import url("styles/header.css");
-:root{
-    --cor-de-fundo:rgb(46, 21, 158);
-    --branco:white;
-    --degrade:linear-gradient(rgb(214, 4, 214), rgb(33, 1, 33) ); 
-}
+@charset "UTF-8";
 body{
-    background-color: var(--cor-de-fundo);
-    font-size: 16px;
-    font-weight: 400px;
+    background-color: rgb(79, 67, 83);
 }
-.frase{
-    color: rgb(4, 4, 4);
-    font-size: 20px;
-    /*font-family: 'Fantasy', Arial, sans-serif;*/
-    display: none;
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+#txt{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+}
+img{
+    width: 500px;
+    height: 300px;
 }
